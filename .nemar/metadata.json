@@ -2,7 +2,7 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "The BMI-HDEEG dataset 3",
-  "description": "A high-density scalp electroencephalogram (EEG) dataset acquired during sensorimotor rhythm-based brain-computer interface (BCI) tasks. This dataset comprises recordings from multiple subjects performing motor imagery and related sensorimotor activities, designed to support the development and validation of BCI systems. The high-density electrode configuration enables detailed spatial characterization of cortical activity underlying motor control and brain-computer communication.",
+  "description": "A high-density scalp electroencephalogram (EEG) dataset acquired during sensorimotor rhythm-based brain-computer interface (BCI) tasks. This dataset comprises recordings from multiple subjects performing motor imagery and related sensorimotor activities, designed to support the development and validation of BCI systems. The dataset provides a comprehensive resource for investigating neural correlates of motor planning and brain-computer communication.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -20,7 +20,9 @@
       "term": "EEG"
     },
     {
-      "term": "brain-computer interface"
+      "term": "Brain-Computer Interfaces",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D062207"
     },
     {
       "term": "motor imagery"
@@ -32,7 +34,7 @@
       "term": "high-density electroencephalography"
     },
     {
-      "term": "BCI"
+      "term": "neural decoding"
     }
   ],
   "related_identifiers": [
